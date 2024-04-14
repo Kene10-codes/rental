@@ -1,0 +1,36 @@
+{"level":"error","message":"Invalid transport, must be an object with a log method.","service":"user-service"}
+{"level":"error","message":"Invalid transport, must be an object with a log method.","service":"user-service"}
+{"level":"error","message":"Invalid transport, must be an object with a log method.","service":"user-service"}
+{"level":"error","message":"Invalid transport, must be an object with a log method.","service":"user-service"}
+{"level":"error","message":"server is not defined","service":"user-service"}
+{"level":"error","message":"logger is not defined","service":"user-service"}
+{"level":"error","message":"server is not defined","service":"user-service"}
+{"level":"error","message":"logger is not defined","service":"user-service"}
+{"level":"error","message":"server is not defined","service":"user-service"}
+{"level":"error","message":"server is not defined","service":"user-service"}
+{"level":"error","message":"server is not defined","service":"user-service"}
+{"level":"error","message":"server is not defined","service":"user-service"}
+{"level":"error","message":"logger is not defined","service":"user-service"}
+{"level":"error","message":"listen EADDRINUSE: address already in use :::3000","service":"user-service"}
+{"level":"error","message":"server is not defined","service":"user-service"}
+{"level":"error","message":"server is not defined","service":"user-service"}
+{"level":"error","message":"server is not defined","service":"user-service"}
+{"level":"error","message":"server is not defined","service":"user-service"}
+{"level":"error","message":"server is not defined","service":"user-service"}
+{"level":"error","message":"Assignment to constant variable.","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
