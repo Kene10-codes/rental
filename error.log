@@ -34,3 +34,4 @@
 {"level":"error","service":"user-service"}
 {"level":"error","service":"user-service"}
 {"level":"error","service":"user-service"}
+{"level":"error","message":"connect ETIMEDOUT 13.38.183.84:27017","service":"user-service"}

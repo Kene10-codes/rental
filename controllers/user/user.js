@@ -1,4 +1,5 @@
 const bcryptjs = require('bcryptjs')
+const _ = require('lodash')
 const { User } = require('../../models/user/user')
 const { userValidate } = require('../../validators/user')
 
@@ -19,13 +20,9 @@ async function registerUser(req, res) {
     if (userEmail) return res.status(400).send('user already exists')
 
     // SET USER
-    const user = new User({
-        lastname: req.body.lastname,
-        firstname: req.body.firstname,
-        email: req.body.email,
-        password: req.body.password,
-        role: req.body.role,
-    })
+    const user = new User(
+        _.pick(req.body, ['firstname', 'lastname', 'email', 'role', 'password'])
+    )
 
     // GENERATE SALT
     const salt = await bcryptjs.genSalt(10)
