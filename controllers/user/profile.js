@@ -1,3 +1,4 @@
+const { UserProfile } = require('../../models/user/profile')
 const { User } = require('../../models/user/user')
 const { userProfileValidate } = require('../../validators/user/profile')
 
@@ -9,10 +10,9 @@ async function registerUserProfile(req, res) {
     }
     const user = await User.findById(req.body.userId)
     if (!user) return res.status(400).send('This is not a valid user')
-    console.log(user)
 
     // SET USER
-    const userInfo = new User({
+    const userInfo = new UserProfile({
         profile: {
             _id: user._id,
             firstname: user.firstname,
@@ -44,6 +44,8 @@ async function updateUserProfile(req, res) {
         },
         { new: true }
     )
+
+    res.status(201).send('Profile updated successfully')
 }
 
 module.exports = {
