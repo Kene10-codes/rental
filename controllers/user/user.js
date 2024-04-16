@@ -14,7 +14,7 @@ async function getusers(req, res) {
 async function registerUser(req, res) {
     const { error } = userValidate.validate(req.body)
     if (error) {
-        return res.send('Issue somewhere!')
+        return res.send(error.details[0].message)
     }
     const userEmail = await User.findOne({ email: req.body.email })
     if (userEmail) return res.status(400).send('user already exists')
@@ -32,7 +32,17 @@ async function registerUser(req, res) {
     // SAVE USER
     const newUser = await user.save()
 
+    // SEND USER
     res.status(201).send(newUser)
 }
 
-module.exports = { registerUser, getusers }
+// GET A USER
+async function getUser(req, res) {
+    const { id } = req.params.id
+    const user = await User.findById(id)
+    if (!user) return res.status(400).send('Invalid User ID')
+
+    res.status(200).send(user)
+}
+
+module.exports = { registerUser, getusers, getUser }

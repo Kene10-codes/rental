@@ -4,7 +4,7 @@ const Schema = mongoose.Schema
 const userSchema = new Schema({
     lastname: {
         type: String,
-        minlength: 5,
+        minlength: 1,
         maxlength: 255,
         lowerCase: true,
         trim: true,
@@ -12,7 +12,7 @@ const userSchema = new Schema({
     },
     firstname: {
         type: String,
-        minlength: 5,
+        minlength: 1,
         maxlength: 255,
         lowerCase: true,
         trim: true,

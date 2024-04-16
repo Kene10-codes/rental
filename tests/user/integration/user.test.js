@@ -1,11 +1,11 @@
 const request = require('supertest')
 let server = require('../../../index.js')
-const db = require('../../../services/db/db.js')()
+const db = require('../../../services/db/db.js')
 
 describe('API CALL /api/user', () => {
-    // beforeAll(async () => {
-    //     await db()
-    // })
+    beforeAll(async () => {
+        await db()
+    })
     describe('GET /user', () => {
         it('Should return all users', async () => {
             const res = await request(server).get('/api/user')
