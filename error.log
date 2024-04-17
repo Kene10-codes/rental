@@ -51,3 +51,33 @@
 {"level":"error","message":"Cannot find module '../../models/user/userProfile'\nRequire stack:\n- C:\\Users\\MORGAN_TEE\\Desktop\\rental\\server\\controllers\\user\\user.js\n- C:\\Users\\MORGAN_TEE\\Desktop\\rental\\server\\routes\\user\\user.js\n- C:\\Users\\MORGAN_TEE\\Desktop\\rental\\server\\services\\routes\\routes.js\n- C:\\Users\\MORGAN_TEE\\Desktop\\rental\\server\\index.js","service":"user-service"}
 {"level":"error","message":"querySrv ETIMEOUT _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
 {"level":"error","message":"querySrv ETIMEOUT _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ETIMEOUT _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"Joi is not defined","service":"user-service"}
+{"level":"error","message":"querySrv ETIMEOUT _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"Joi is not defined","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"Joi is not defined","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"Joi is not defined","service":"user-service"}
