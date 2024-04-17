@@ -9,7 +9,7 @@ async function registerVendor(req, res) {
         return res.send(error.details[0].message)
     }
     const userEmail = await Vendor.findOne({ email: req.body.email })
-    if (!userEmail) return res.status(400).send('user already exists')
+    if (!userEmail) return res.status(400).send('Vendor already exists')
 
     // SET USER
     const vendor = new Vendor(

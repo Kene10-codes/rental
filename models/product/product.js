@@ -1,13 +1,11 @@
 const { required } = require('joi')
 const mongoose = require('mongoose')
-const { vendorSchema } = require('../vendor/vendor')
 const Schema = mongoose.Schema
 
 const productSchema = new Schema({
     vendor: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'vendor',
-        required: true,
+        ref: 'Vendor',
     },
     name: {
         type: String,

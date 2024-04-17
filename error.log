@@ -81,3 +81,5 @@
 {"level":"error","message":"Joi is not defined","service":"user-service"}
 {"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
 {"level":"error","message":"Joi is not defined","service":"user-service"}
+{"level":"error","message":"querySrv ECONNREFUSED _mongodb._tcp.nodetut.n6pqp.mongodb.net","service":"user-service"}
+{"level":"error","message":"createProducts is not defined","service":"user-service"}

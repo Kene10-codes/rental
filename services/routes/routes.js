@@ -10,6 +10,6 @@ module.exports = function (app) {
 
     app.use('/api/user', userRoutes)
     app.use('/api/user/profile', userProfileRoutes)
-    app.use('/api/vendor', vendorRoutes)
     app.use('/api/product', productRoutes)
+    app.use('/api/vendor', vendorRoutes)
 }

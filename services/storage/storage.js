@@ -1,5 +1,4 @@
 const cloudinary = require('cloudinary').v2
-const path = require('path')
 const { CloudinaryStorage } = require('multer-storage-cloudinary')
 
 module.exports = function (image) {
@@ -13,7 +12,7 @@ module.exports = function (image) {
     const storage = new CloudinaryStorage({
         cloudinary,
         params: {
-            folder: path.join(__dirname, 'public'),
+            folder: 'RENTALDEMO',
             allowedFormats: ['jpeg', 'png', 'jpg'],
         },
     })
