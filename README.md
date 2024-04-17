@@ -7,8 +7,8 @@ This is a futuristic ecommerce application where buying, selling, renting and le
 - Agents commission too high
 
 ## TECHNOLOGIES
-Programming Language: JavaScript,
-Runtime JS Library: Node
-Other Tools: Still to come
+- Programming Language: JavaScript,
+- Runtime JS Library: Node
+- Other Tools: Still to come
 
-Watch out!
+##### Watch out!
