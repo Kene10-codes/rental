@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const jwt = require('jsonwebtoken')
 const Schema = mongoose.Schema
 
 const vendorSchema = new Schema(
@@ -39,6 +40,17 @@ const vendorSchema = new Schema(
     },
     { timestamps: true }
 )
+
+// GENERATE TOKEN FUNC
+vendorSchema.methods.generateToken = function () {
+    return jwt.sign(
+        { _id: this._id, role: this.role },
+        process.env.JWT_PRIVATE_KEY,
+        {
+            expiresIn: '1d',
+        }
+    )
+}
 
 const Vendor = mongoose.model('Vendor', vendorSchema)
 

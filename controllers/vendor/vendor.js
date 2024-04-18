@@ -22,10 +22,12 @@ async function registerVendor(req, res) {
     vendor.password = await bcryptjs.hash(req.body.password, salt)
 
     // SAVE VENDOR
-    const newvendor = await vendor.save()
+    await vendor.save()
+
+    const token = vendor.generateToken()
 
     // SEND VENDOR
-    res.status(201).send(newvendor)
+    res.header('x-auth-token', token).status(201).send(vendor)
 }
 
 module.exports = {
