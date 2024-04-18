@@ -30,10 +30,13 @@ async function registerUser(req, res) {
     user.password = await bcryptjs.hash(req.body.password, salt)
 
     // SAVE USER
-    const newUser = await user.save()
+    await user.save()
 
-    // SEND USER
-    res.status(201).send(newUser)
+    // GENERATE TOKEN
+    const token = user.generateToken()
+
+    // SEND TOKEN
+    res.header('x-auth-token', token).status(201).send(user)
 }
 
 // GET A USER
