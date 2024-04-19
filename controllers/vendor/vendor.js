@@ -39,7 +39,7 @@ async function registerVendor(req, res) {
 benefits our platform has to offer.</p>
 
 <p> If you have any questions or need assistance, feel free to reach out to our support team at blogcustomercare101@gmail.com. We're here to help you make the most out of your experience with our Blog.
-
+x
 Once again, welcome aboard, and thank you for joining us! </p>
 
 <p>Best regards,</p>
